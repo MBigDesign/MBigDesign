@@ -1,0 +1,29 @@
+name: mbigdesign
+description: A new Flutter project.
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+cupertino_icons: ^0.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+
+  assets:
+    - assets/img/covers/algorithms.png
+    - assets/img/covers/calculus.jpg
+    - assets/img/covers/linearAlgebra.jpg
+    - assets/img/icons/ic_distance.png
